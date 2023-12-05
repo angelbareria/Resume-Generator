@@ -1,0 +1,46 @@
+/* #resume-form{
+    display: none;
+} */
+
+#resume-template{
+    display: none;
+}
+
+.myimg{
+    
+    border-radius: 50%;
+    width: 200px;
+}
+
+.background{
+    background-color: rgba(32, 75, 92, 0.944);
+}
+
+.cardcolor{
+    color: white
+}
+
+.multiline-text {
+    white-space: pre-line;
+  }
+
+.wrap-text {
+    white-space: normal !important;
+    word-wrap: break-word;
+}
+
+
+@media print{
+    .hide-on-print{
+        display: none;
+    }
+}
+
+.borders{
+    border: 2px solid rgb(8,167,81);
+    
+}
+
+.bcolor{
+    color:rgb(13, 27, 20);
+}
